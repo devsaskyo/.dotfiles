@@ -21,9 +21,6 @@ style = "Italic"
 family = "Hack"
 style = "Bold Italic"
 
-[bell]
-audible = false
-
 [colors.primary]
 background = "#1E1E2E"
 foreground = "#CDD6F4"
