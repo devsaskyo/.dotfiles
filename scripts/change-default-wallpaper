@@ -1,8 +1,11 @@
 #!/bin/bash
 
-name="$1"
+if [ "$#" -ne 1 ]; then
+  echo "change-default-wallpaper <name>"
+  exit
+fi
 
-if [ $name == "" ]; then echo "change-default-wallpaper <name>"; exit; fi
+name="$1"
 
 cp "~/.dotfiles/wallpapers/${name}.jpg" "~/.dotfiles/wallpapers/default.jpg"
 
