@@ -7,4 +7,4 @@ fi
 
 name="$1"
 
-feh --bg-scale "~/.dotfiles/wallpapers/${name}.jpg"
+feh --bg-scale "$HOME/.dotfiles/wallpapers/${name}.jpg"

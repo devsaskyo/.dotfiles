@@ -7,6 +7,6 @@ fi
 
 name="$1"
 
-cp "~/.dotfiles/wallpapers/${name}.jpg" "~/.dotfiles/wallpapers/default.jpg"
+cp "$HOME/.dotfiles/wallpapers/${name}.jpg" "$HOME/.dotfiles/wallpapers/default.jpg"
 
-feh --bg-scale "~/.dotfiles/wallpapers/default.jpg"
+feh --bg-scale "$HOME/.dotfiles/wallpapers/default.jpg"
