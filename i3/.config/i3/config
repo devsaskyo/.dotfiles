@@ -168,8 +168,8 @@ bindsym $mod+Shift+0 move container to workspace 10
 # bindcode $mod+Shift+90 move container to workspace 10
 
 # brightnessctl
-bindsym $mod+o exec "brightnessctl set +5%"
-bindsym $mod+i exec "brightnessctl set -5%"
+bindsym $mod+o exec brightnessctl set +5%
+bindsym $mod+i exec brightnessctl set -5%
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
