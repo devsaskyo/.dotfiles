@@ -1,0 +1,7 @@
+#!/bin/bash
+
+name="$1"
+
+if [ $name == "" ]; then echo "change-wallpaper <name>"; exit; fi
+
+feh --bg-scale "~/.dotfiles/wallpapers/${name}.jpg"
