@@ -167,6 +167,10 @@ bindsym $mod+Shift+0 move container to workspace 10
 # bindcode $mod+Shift+81 move container to workspace 9
 # bindcode $mod+Shift+90 move container to workspace 10
 
+# brightnessctl
+bindsym $mod+b exec "brightnessctl set +5%"
+bindsym $mod+v exec "brightnessctl set -5%"
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
