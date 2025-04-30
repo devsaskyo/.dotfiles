@@ -1,7 +1,10 @@
 #!/bin/bash
 
-name="$1"
+if [ "$#" -ne 1 ]; then
+  echo "change-wallpaper <name>"
+  exit
+fi
 
-if [ $name == "" ]; then echo "change-wallpaper <name>"; exit; fi
+name="$1"
 
 feh --bg-scale "~/.dotfiles/wallpapers/${name}.jpg"
