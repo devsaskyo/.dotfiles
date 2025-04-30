@@ -1,56 +1,65 @@
-window:
-  opacity: 0.83
-  dynamic_title: true
+[window]
+opacity = 0.83
+dynamic_title = true
 
-font:
-  normal:
-    family: Hack
-    style: Regular
-  bold:
-    family: Hack
-    style: Bold
-  italic:
-    family: Hack
-    style: Italic
-  bold_italic:
-    family: Hack
-    style: Bold Italic
-  size: 11.0
+[font]
+size = 11.0
 
-bell:
-  audible: false
+[font.normal]
+family = "Hack"
+style = "Regular"
 
-colors:
-  primary:
-    background: '#1E1E2E'
-    foreground: '#CDD6F4'
-  cursor:
-    text: '#1E1E2E'
-    cursor: '#F5E0DC'
-  selection:
-    text: '#1E1E2E'
-    background: '#F5E0DC'
+[font.bold]
+family = "Hack"
+style = "Bold"
 
-  normal:
-    black:   '#45475A'
-    red:     '#F38BA8'
-    green:   '#A6E3A1'
-    yellow:  '#F9E2AF'
-    blue:    '#89B4FA'
-    magenta: '#F5C2E7'
-    cyan:    '#94E2D5'
-    white:   '#BAC2DE'
+[font.italic]
+family = "Hack"
+style = "Italic"
 
-  bright:
-    black:   '#585B70'
-    red:     '#F38BA8'
-    green:   '#A6E3A1'
-    yellow:  '#F9E2AF'
-    blue:    '#89B4FA'
-    magenta: '#F5C2E7'
-    cyan:    '#94E2D5'
-    white:   '#A6ADC8'
+[font.bold_italic]
+family = "Hack"
+style = "Bold Italic"
 
-  indexed_colors:
-    - { index: 16, color: '#F4A261' }
-    - { index: 17, color: '#D67AD2' }
+[bell]
+audible = false
+
+[colors.primary]
+background = "#1E1E2E"
+foreground = "#CDD6F4"
+
+[colors.cursor]
+text = "#1E1E2E"
+cursor = "#F5E0DC"
+
+[colors.selection]
+text = "#1E1E2E"
+background = "#F5E0DC"
+
+[colors.normal]
+black = "#45475A"
+red = "#F38BA8"
+green = "#A6E3A1"
+yellow = "#F9E2AF"
+blue = "#89B4FA"
+magenta = "#F5C2E7"
+cyan = "#94E2D5"
+white = "#BAC2DE"
+
+[colors.bright]
+black = "#585B70"
+red = "#F38BA8"
+green = "#A6E3A1"
+yellow = "#F9E2AF"
+blue = "#89B4FA"
+magenta = "#F5C2E7"
+cyan = "#94E2D5"
+white = "#A6ADC8"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#F4A261"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#D67AD2"
