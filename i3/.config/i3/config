@@ -233,3 +233,5 @@ bindsym $mod+m move workspace to output left
 
 # Suspend
 bindsym $mod+Shift+period exec systemctl suspend
+
+exec --no-startup-id feh --bg-scale ~/.dotfiles/wallpapers/default.jpg
